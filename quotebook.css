@@ -64,11 +64,6 @@ section.sixth-section {
     padding-bottom: 50px;
 }
 
-/* section.third-section {
-    grid-column: 2;
-    grid-row: 3;
-} */
-
 h4 {
     padding: 10px;
 }
@@ -80,9 +75,6 @@ h2 {
 }
 
 h1 {
-    /* justify-content: center;
-    align-content: center; */
-
     margin-bottom: 20px;
 }
 
@@ -97,7 +89,6 @@ h1 {
 .first {
     display: grid;
     gap: 40px;
-    /* background-color: aqua; */
     color: white;
     border-radius: 50px;
     box-shadow: 5px 5px grey;
@@ -117,7 +108,6 @@ h1 {
 .second {
     display: grid;
     gap: 40px;
-    /* background-color: rgb(64, 84, 122); */
     color: white;
     border-radius: 50px;
     box-shadow: 5px 5px grey;
@@ -137,7 +127,6 @@ h1 {
 .third {
     display: grid;
     gap: 40px;
-    /* background-color: rgb(64, 84, 122); */
     color: white;
     border-radius: 50px;
     box-shadow: 5px 5px grey;
@@ -157,7 +146,6 @@ h1 {
 .fourth {
     display: grid;
     gap: 40px;
-    /* background-color: rgb(64, 84, 122); */
     color: white;
     border-radius: 50px;
     box-shadow: 5px 5px grey;
@@ -173,24 +161,6 @@ h1 {
 .yt-link {
     text-align: center;
 }
-
-/* .cards-third {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    row-gap: 40px;
-}
-
-.third {
-    display: grid;
-    gap: 40px;
-    background-color: darkturquoise;
-    color: white;
-    border-radius: 50px;
-    box-shadow: 5px 5px grey;
-    padding: 30px;
-    text-align: center;
-} */
 
 .author {
     text-align: center;
@@ -272,14 +242,12 @@ h1 {
     display: block;
 }
 
-.my-form input[type="text"], .my-form textarea {
-    /* type="text" disregards the button bc it is not a text area */
-    
+.my-form input[type="text"], .my-form textarea {    
     padding: 10px;
     width: 100%;
 }
 
-/* .my-form input[type="submit"] { or */ .button {
+.button {
     background-color: lightgrey;
     color: white;
 
