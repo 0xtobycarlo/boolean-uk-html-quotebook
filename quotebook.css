@@ -52,10 +52,26 @@ section.fourth-section {
     padding-bottom: 50px;
 }
 
+section.fifth-section {
+    grid-column: 2;
+    grid-row: 6;
+    padding-bottom: 50px;
+}
+
+section.sixth-section {
+    grid-column: 2;
+    grid-row: 7;
+    padding-bottom: 50px;
+}
+
 /* section.third-section {
     grid-column: 2;
     grid-row: 3;
 } */
+
+h4 {
+    padding: 10px;
+}
 
 h2 {
     font-size: 2rem;
@@ -154,6 +170,10 @@ h1 {
     text-align: center;
 }
 
+.yt-link {
+    text-align: center;
+}
+
 /* .cards-third {
     display: grid;
     grid-template-columns: 1fr;
@@ -238,4 +258,40 @@ h1 {
 
 .fourth:nth-child(4) {
     background-color: #e1f5fe;
+}
+
+.my-form {
+    padding: 10px;
+}
+
+.my-form form-group {
+    padding-bottom: 10px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea {
+    /* type="text" disregards the button bc it is not a text area */
+    
+    padding: 10px;
+    width: 100%;
+}
+
+/* .my-form input[type="submit"] { or */ .button {
+    background-color: lightgrey;
+    color: white;
+
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+
+    align-content: center;
+    justify-content: center;
+}
+
+.button:hover {
+    background: #4fc3f7;
+    color: white;
 }
